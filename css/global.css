@@ -1,3 +1,17 @@
+:root {
+    --font-family: 'League Spartan', sans-serif;
+    --color-neutral-950: #000000;
+    --color-neutral-200: #e1e1e1;
+    --color-neutral-0: #ffffff;
+    --color-slate-500: #7d828f;
+    --color-slate-200: #c8ccd8;
+    --color-slate-100: #eeeff4;
+    --color-slate-900: #eeeff4;
+    --color-zinc-900: #1B1D23;
+    --color-zinc-0: #60636d;
+    --color-red-500: #DF5656;
+    --color-stone-100: #eae8e8;
+}
 /* navbar styling */
  header nav {
     padding: 32px;
@@ -8,4 +22,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* footer styling */
+footer {
+    padding: 24px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-slate-100);
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-zinc-900);
+}
+
+.logo svg {
+    fill: var(--color-neutral-0);
 }
