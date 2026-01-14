@@ -1,0 +1,11 @@
+/* navbar styling */
+ header nav {
+    padding: 32px;
+    background-color: #fff;
+}
+
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
