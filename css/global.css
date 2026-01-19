@@ -78,6 +78,7 @@ footer {
     color: var(--color-neutral-0);
     background-color: var(--color-zinc-900);
     cursor: pointer;
+    width: fit-content;
 }
 
 .button-div svg {
