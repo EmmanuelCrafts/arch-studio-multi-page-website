@@ -6,6 +6,13 @@
 .hero-container  img {
     width: 100%;
 }
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
  .text-wrapper {
     position: absolute;
     width: 85%;
@@ -14,6 +21,7 @@
     transform: translateY(-50%);
     color: var(--color-neutral-0);
     text-align: left;
+    z-index: 2;
 } 
  .text-wrapper h1 {
     font-size: 48px;
