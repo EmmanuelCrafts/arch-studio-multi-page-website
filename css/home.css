@@ -3,6 +3,9 @@
     position: relative;
 }
 
+.hero-container  img {
+    width: 100%;
+}
  .text-wrapper {
     position: absolute;
     width: 85%;
