@@ -10,7 +10,7 @@
 .overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
  .text-wrapper {
@@ -102,4 +102,66 @@
     width: 260px;
     letter-spacing: -1.7px;
     margin-bottom: 30px;
+}
+
+/* featured */
+.featured {
+    margin-top: 72px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 110%;
+    letter-spacing: -1.7px;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.featured-cards {
+    position: relative;
+}
+
+ .image-container img {
+    width: 100%;
+    height: 240px;
+}
+
+.featured-text {
+    position: absolute;
+    bottom: 16px;
+    left: 24px;
+    color: var(--color-neutral-0);
+    z-index: 2;
+}
+
+.featured-text h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 125%;
+    letter-spacing: 0;
+}
+
+.featured-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0px;
+    opacity: 75%;
+}
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
 }
