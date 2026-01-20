@@ -13,9 +13,13 @@
     --color-stone-100: #eae8e8;
 }
 /* navbar styling */
- header nav {
+ header {
     padding: 32px;
     background-color: #fff;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 10;
 }
 
 .mobile-nav {
@@ -24,6 +28,10 @@
     align-items: center;
 }
 
+.nav-logo svg {
+    width: 77px;
+    height: 32px;
+}
 /* footer styling */
 footer {
     background-color: #f1f1f1;
