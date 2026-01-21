@@ -42,9 +42,8 @@
 
  /* intro section */
  .intro-container {
-    padding-top: 72px;
-    width: 90%;
-    margin: 0 auto;
+    margin-top: 72px;
+    padding: 0 32px;
  }
 
 .intro-container h2 {
@@ -101,9 +100,7 @@
 /* featured */
 .featured {
     margin-top: 72px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 32px;
 }
 
 .featured h2 {
@@ -154,7 +151,6 @@
 
 .full-width {
     width: 100%;
-    margin: 0 auto;
     margin-top: 24px;
     display: flex;
     justify-content: center;
