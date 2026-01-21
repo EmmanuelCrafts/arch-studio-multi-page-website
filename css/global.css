@@ -32,6 +32,14 @@
     width: 77px;
     height: 32px;
 }
+
+/* line decoration */
+ .line-style {
+    width: 65px;
+    height: 1px;
+    background-color: var(--color-slate-200);
+    margin-bottom: 16px;
+}
 /* footer styling */
 footer {
     background-color: #f1f1f1;

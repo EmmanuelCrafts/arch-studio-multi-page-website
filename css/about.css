@@ -33,5 +33,37 @@
     line-height: 135%;
     color: var(--color-zinc-600);
     letter-spacing: 0;
-    
+}
+
+/* heritage section */
+.heritage {
+    margin-top: 32px;
+    padding: 0 32px;
+}
+
+.deco {
+    margin-bottom: 68px;
+}
+
+.heritage-text h2 {
+    font-weight: bold;
+    font-size: 48px;
+    width: min-content;
+    letter-spacing: -1.7px;
+    line-height: 110%;
+    color: var(--color-zinc-900);
+    margin-bottom: 24px;
+}
+
+.heritage-text {
+    display: flex;
+    flex-direction: column;
+    gap:  16px;
+}
+.heritage-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    color: var(--color-zinc-600);
+    letter-spacing: 0;
 }

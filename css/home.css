@@ -47,13 +47,6 @@
     margin: 0 auto;
  }
 
- .line-style {
-    width: 65px;
-    height: 1px;
-    background-color: var(--color-slate-200);
-    margin-bottom: 16px;
-}
-
 .intro-container h2 {
     font-size: 48px;
     font-weight: bold;
