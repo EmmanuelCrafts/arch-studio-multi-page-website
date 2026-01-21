@@ -1,0 +1,37 @@
+.intro {
+    margin-top: 100px;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+.intro-text {
+    text-align: center;
+    position: relative;
+    bottom: 44px;
+    text-align: left;
+    padding-top: 68px;
+    width: 90%;
+    padding-left: 32px;
+    background-color: var(--color-neutral-0);
+}
+
+
+.intro-text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -1.7px;
+    line-height: 110%;
+    color: var(--color-zinc-900);
+    margin-bottom: 16px;
+}
+
+.intro-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    color: var(--color-zinc-600);
+    letter-spacing: 0;
+    
+}
