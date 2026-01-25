@@ -81,5 +81,33 @@
     letter-spacing: -1.7px;
     line-height: 110%;
     color: var(--color-zinc-900);
-    margin-bottom: 24px;
+}
+
+.leader-cards {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.leader-text {
+    margin-top: 16px;
+}
+
+.leader-text h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: var(--color-zinc-900);
+    margin-bottom: 8px;
+}
+
+.leader-text span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    color: var(--color-zinc-900);
+    opacity: 75%;
 }
