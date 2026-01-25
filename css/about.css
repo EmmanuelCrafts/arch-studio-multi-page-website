@@ -67,3 +67,19 @@
     color: var(--color-zinc-600);
     letter-spacing: 0;
 }
+
+/* leaders section */
+.leaders {
+    margin-top: 108px;
+    padding: 0 32px;
+}
+
+.leader-title {
+    font-weight: bold;
+    font-size: 48px;
+    width: min-content;
+    letter-spacing: -1.7px;
+    line-height: 110%;
+    color: var(--color-zinc-900);
+    margin-bottom: 24px;
+}
