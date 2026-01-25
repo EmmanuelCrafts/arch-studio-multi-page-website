@@ -1,0 +1,42 @@
+.featured-projects {
+    margin-top: 156px;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.featured-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.featured-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.featured-text {
+    position: absolute;
+    bottom: 32px;
+    width: fit-content;
+    left: 40px;
+    color: var(--color-neutral-0);
+    text-align: left;
+    z-index: 2;
+}
+.featured-text h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.featured-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0px;
+}

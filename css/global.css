@@ -40,6 +40,14 @@
     background-color: var(--color-slate-200);
     margin-bottom: 16px;
 }
+
+/* overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
 /* footer styling */
 footer {
     background-color: #f1f1f1;
