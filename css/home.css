@@ -9,7 +9,7 @@
 }
  .text-wrapper {
     position: absolute;
-    width: 85%;
+    width: 311px;
     top: 50%;
     left: 32px;
     transform: translateY(-50%);
@@ -21,7 +21,7 @@
     font-size: 48px;
     font-weight: bold;
     line-height: 110%;
-    width: 50%;
+    width: min-content;
     letter-spacing: -1.7px;
 }
 
@@ -63,9 +63,12 @@
 
 /* about-redirect */
 .about-redirect {
-    position: relative;
     margin-top: 115px;
 }
+
+.redirect-container {
+    position: relative;
+} 
 
 .redirect-hero img {
     width: 100%;
@@ -151,3 +154,32 @@
 }
 
 /* tablet styles */
+@media (min-width: 768px) {
+    .hero,
+    .intro-container,
+    .about-redirect,
+    .featured{
+        padding: 0 98px;
+    }
+
+    .hero-container {
+       margin-top: 156px;
+    }
+
+    .text-wrapper {
+        width: 434px;
+        left: 56px;
+    }
+
+    .text-wrapper h1 {
+        font-size: 96px;
+        line-height: 85%;
+        letter-spacing: -2px;
+        
+    }
+
+    .text-wrapper p {
+        margin-bottom: 40px;
+    }
+}
+  
