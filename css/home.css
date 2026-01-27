@@ -214,5 +214,17 @@
     .intro-text {
         margin-top: 40px;
     }
+
+    /* about-redirect */
+    .about-redirect {
+        margin-top: 244px;
+    }
+
+    .redirect-text h2 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        width: 70%;
+    }
 }
   
