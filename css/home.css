@@ -109,6 +109,7 @@
     line-height: 110%;
     letter-spacing: -1.7px;
     margin-bottom: 40px;
+    color: var(--color-zinc-900);
 }
 
 .cards-container {
@@ -149,6 +150,9 @@
     opacity: 75%;
 }
 
+.number-card {
+   display: none;
+}
 .full-width {
     width: 100%;
     margin-top: 24px;
@@ -225,6 +229,42 @@
         line-height: 90%;
         letter-spacing: -2px;
         width: 70%;
+    }
+
+    /* featured */
+    .featured {
+        margin-top: 200px;
+        margin-bottom: 208px;
+        position: relative;
+    }
+    
+    .featured h2 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        margin-bottom: 68px;
+    }
+    
+    .number-card {
+        display: block;
+        position: absolute;
+        font-size: 250px;
+        font-weight: bold;
+        line-height: 80%;
+        right: 0;
+        top: 50%;
+        transform: translateY(-40%);
+        letter-spacing: -5px;
+        z-index: 2;
+        color: var(--color-neutral-0);
+        opacity: 50%;
+    }
+    .full-width {
+        position: absolute;
+        top: 0;
+        right: 98px;
+        margin: 0;
+        width: fit-content;
     }
 }
   
