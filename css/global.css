@@ -63,7 +63,6 @@
 footer {
     background-color: #f1f1f1;
     text-align: center;
-    /* margin-top: 133px; */
     color: var(--color-slate-100);
     position: relative;
 }
@@ -122,6 +121,7 @@ footer {
 
 /* tablet styles */
 @media (min-width: 768px) {
+    /* header   */
     header {
         padding: 60px 98px; 
     }
@@ -175,4 +175,33 @@ footer {
     .menu-icon {
         display: none;
     }
+
+    
+    footer {
+        background-color: var(--color-neutral-0);
+    }
+
+    .footer-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        inset: 0;
+    }
+    
+    .footer-left {
+        display: flex;
+        background-color: #f1f1f1;
+        align-items: center;
+        width: 80%;
+       gap: 40px;
+        
+    }
+
+    .footer-right {
+        position: absolute;
+        right: 0;
+    }
+    .footer-navigation ul {
+        flex-direction: row;
+        gap: 56px;
+    } 
 }
