@@ -35,8 +35,8 @@
 
  /* intro section */
  .intro-container {
-    margin-top: 72px;
-    padding: 0 32px;
+    margin:72px 32px 0 32px;
+    
  }
 
  .big {
@@ -98,9 +98,7 @@
 
 /* featured */
 .featured {
-    margin-top: 72px;
-    margin-bottom: 133px;
-    padding: 0 32px;
+    margin: 72px 32px 133px 32px;
 }
 
 .featured h2 {
@@ -166,7 +164,8 @@
     .intro-container,
     .about-redirect,
     .featured{
-        padding: 0 98px;
+        margin-left: 98px;
+        margin-right: 98px;
     }
 
     .hero-container {

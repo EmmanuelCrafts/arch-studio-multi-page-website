@@ -6,6 +6,14 @@
     width: 100%;
 }
 
+.about-deco {
+    display: none;
+}
+
+.line-style {
+    display: none;
+}
+
 .intro-text {
     text-align: center;
     position: relative;
@@ -112,3 +120,57 @@
     color: var(--color-zinc-900);
     opacity: 75%;
 }
+
+/* tablet styles */
+@media (min-width: 768px) {
+    .intro,
+    .heritage,
+    .leaders {
+        margin-left: 98px;
+        margin-right: 98px;
+    }
+   
+    .intro {
+        margin-top: 156px;
+        position: relative;
+    }
+    .hero-image img {
+        max-height: 720px;
+    }
+    .about-deco {
+        display: block;
+        position: absolute;
+        top: 26vw;
+        right: 0;
+        z-index: 2;
+    }
+
+    .about-deco h1 {
+        font-weight: bold;
+        font-size: 120px;
+        line-height: 165%;
+        letter-spacing: -3px;
+        color: var(--color-slate-100);
+    }
+
+    .line-style {
+        display: block;
+        margin-bottom: 72px;
+    }
+
+    .intro-text {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding-top: 89px;
+        padding-left: 59px;
+    }
+
+    .intro-text h1 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
+}
+
