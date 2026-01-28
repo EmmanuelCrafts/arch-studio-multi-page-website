@@ -78,9 +78,7 @@
 
 /* leaders section */
 .leaders {
-    margin-top: 108px;
-    margin-bottom: 182px;
-    padding: 0 32px;
+    margin: 108px 32px 182px 32px;
 }
 
 .leader-title {
@@ -187,6 +185,25 @@
         line-height: 90%;
         letter-spacing: -2px;
         margin-bottom: 56px;
+    }
+
+    /* leaders section */
+    .leaders {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .leader-title {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+    }
+    .leader-cards {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 12px;
+        row-gap: 100px;
     }
 }
 
