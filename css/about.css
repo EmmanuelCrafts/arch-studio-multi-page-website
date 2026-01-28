@@ -45,8 +45,8 @@
 
 /* heritage section */
 .heritage {
-    margin-top: 32px;
-    padding: 0 32px;
+    margin: 32px 32px 0 32px;
+    /* padding: 0 32px; */
 }
 
 .deco {
@@ -171,6 +171,22 @@
         line-height: 90%;
         letter-spacing: -2px;
         margin-bottom: 40px;
+    }
+
+    /* heritage section */
+    .heritage {
+        margin-top: 200px;
+        padding: 0;
+    }
+    
+    .deco {
+        margin-bottom: 49px;
+    }
+    .heritage-text h2 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        margin-bottom: 56px;
     }
 }
 
