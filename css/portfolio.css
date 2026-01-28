@@ -1,5 +1,5 @@
 .featured-projects {
-    margin-top: 156px;
+    margin-top: 100px;
     margin-bottom: 132px;
     padding: 0 32px;
     display: flex;
@@ -41,4 +41,13 @@
     line-height: 135%;
     letter-spacing: 0px;
     opacity: 75%;
+}
+
+/* tablet styles */
+@media (min-width: 768px) {
+    .featured-projects {
+        padding: 0 98px;
+        margin-bottom: 200PX;
+        margin-top: 156PX;
+    }
 }
