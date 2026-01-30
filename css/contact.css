@@ -180,7 +180,8 @@
         margin-top: 156px;
         position: relative;
     }
-
+    
+    
     .hero-image img {
         max-height: 720px;
     }
@@ -209,8 +210,8 @@
 
     .hero-text {
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: -1px;
+        bottom: -1px;
         padding-top: 89px;
         padding-left: 59px;
     }
