@@ -10,13 +10,15 @@
     position: relative;
     bottom: 44px;
     text-align: left;
-    padding-top: 68px;
-    padding-left: 32px;
-    margin-right: 32px;
+    padding: 68px 0 0 32px;
+    width: 90%;
     background-color: var(--color-neutral-0);
 }
 
-
+.line-style,
+.contact-deco {
+    display: none;
+}
 .hero-text h1 {
     font-weight: bold;
     font-size: 48px;
@@ -37,8 +39,7 @@
 
 /* contact form and details */
 .contact-section {
-    margin-top: 32px;
-    padding: 0 32px;
+    margin: 32px 32px 0 32px;
 }
 
 .contact-section h1 {
@@ -103,9 +104,7 @@
 
 /* contact form */
 .contact-us {
-    margin-top: 78px;
-    margin-bottom: 130px;
-    padding: 0 32px;
+    margin: 78px 32px 130px 32px;
 }
 
 .contact-us h2 {
@@ -167,4 +166,62 @@
 .submit-button {
     margin-left: auto;
     transform: translateY(-50%);
+}
+/* tablet styles */
+@media (min-width: 768px) {
+    .contact-hero,
+    .contact-section,
+    .contact-us {
+        margin-left: 98px;
+        margin-right: 98px;
+    }
+
+    .contact-hero {
+        margin-top: 156px;
+        position: relative;
+    }
+
+    .hero-image img {
+        max-height: 720px;
+    }
+    
+    /* refactor this section i.e take it to global css */
+     .contact-deco {
+        display: block;
+        position: absolute;
+        top: 26vw;
+        right: 0;
+        z-index: 2;
+    }
+
+    .contact-deco h1 {
+        font-weight: bold;
+        font-size: 120px;
+        line-height: 165%;
+        letter-spacing: -3px;
+        color: var(--color-slate-100);
+    }
+
+    .line-style {
+        display: block;
+        margin-bottom: 72px;
+    }
+
+    .hero-text {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding-top: 89px;
+        padding-left: 59px;
+    }
+
+    .hero-text h1 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
+
+  
+    
 }

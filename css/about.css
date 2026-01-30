@@ -21,7 +21,7 @@
     text-align: left;
     padding-top: 68px;
     width: 90%;
-    padding-left: 32px;
+    padding-left: 32px; 
     background-color: var(--color-neutral-0);
 }
 
@@ -132,7 +132,8 @@
         margin-top: 156px;
         position: relative;
     }
-    .hero-image img {
+    
+    .hero-image img{
         max-height: 720px;
     }
     .about-deco {
@@ -206,4 +207,5 @@
         row-gap: 100px;
     }
 }
+
 
