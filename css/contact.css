@@ -94,6 +94,7 @@
     color: var(--color-zinc-900);
 }
 
+/* map section  */
 .map {
     margin-top: 75px;
 }
@@ -171,7 +172,8 @@
 @media (min-width: 768px) {
     .contact-hero,
     .contact-section,
-    .contact-us {
+    .contact-us,
+    .map {
         margin-left: 98px;
         margin-right: 98px;
     }
@@ -242,4 +244,8 @@
         justify-content: space-between;
     }
     
+    /* map image */
+    .map {
+        margin-top: 200px;
+    }
 }
