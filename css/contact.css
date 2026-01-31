@@ -248,4 +248,17 @@
     .map {
         margin-top: 200px;
     }
+
+    /* contact form */
+    .contact-us {
+        margin-top: 200px;
+    }
+
+    .contact-us h2 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        width: 100%;
+        margin-bottom: 48px;
+    }
 }
