@@ -223,6 +223,23 @@
         margin-bottom: 40px;
     }
 
-  
+    /* contact info */
+    .contact-section {
+        margin-top: 200px;
+    }
+
+    .contact-section h1 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
     
 }
