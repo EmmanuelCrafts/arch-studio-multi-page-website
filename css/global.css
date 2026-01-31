@@ -19,7 +19,7 @@
     background-color: #fff;
     position: fixed;
     width: 100%; 
-    top: 0;
+     top: 0;
     z-index: 10;
 }
 
@@ -131,6 +131,7 @@ footer {
     /* header   */
     header {
         padding: 60px 98px; 
+        position: static;
     }
 
     .header-style {
@@ -211,4 +212,13 @@ footer {
         flex-direction: row;
         gap: 56px;
     } 
+}
+
+/* desktop styles */
+
+@media (min-width: 1024px) {
+    header {
+        
+    }
+    
 }

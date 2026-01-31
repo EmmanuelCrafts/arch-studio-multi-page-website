@@ -44,6 +44,6 @@
 /* tablet styles */
 @media (min-width: 768px) {
     .featured-projects {
-        margin: 156px 98px 200px 98px;
+        margin: 0 98px 200px 98px;
     }
 }
