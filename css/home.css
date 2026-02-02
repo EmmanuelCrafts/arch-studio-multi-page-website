@@ -35,7 +35,8 @@
 
  /* intro section */
  .intro-container {
-    margin:72px 32px 0 32px;
+    margin-top: 72px;
+    padding-inline: 32px;
     
  }
 
@@ -98,7 +99,9 @@
 
 /* featured */
 .featured {
-    margin: 72px 32px 133px 32px;
+    margin-top: 72px;
+    margin-bottom: 133px;
+    padding-inline: 32px;
 }
 
 .featured h2 {
@@ -164,8 +167,8 @@
     .intro-container,
     .about-redirect,
     .featured{
-        margin-left: 98px;
-        margin-right: 98px;
+        width: 75%;
+        margin: 0 auto;
     }
 
     .hero-container {
@@ -190,7 +193,8 @@
 
     /* intro section */
     .intro-container {
-       margin-top: 100px;   
+       margin-top: 100px; 
+       padding: 0;  
     }
     
     .line-style {
@@ -234,6 +238,7 @@
     .featured {
         margin-top: 200px;
         margin-bottom: 208px;
+        padding: 0;
         position: relative;
     }
     
@@ -261,7 +266,7 @@
     .full-width {
         position: absolute;
         top: 0;
-        right: 98px;
+        right: 0;
         margin: 0;
         width: fit-content;
     }
