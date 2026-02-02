@@ -124,8 +124,7 @@
 }
 
  .image-container img {
-    width: 100%;
-    height: 240px;
+   width: 100%;
 }
 
 .featured-text {
@@ -271,4 +270,22 @@
         width: fit-content;
     }
 }
-  
+
+/* laptop styles */
+@media (min-width: 1024px) {
+    /*featured section */
+    .cards-container {
+        flex-direction: row;
+    }
+
+    .image-container img {
+        max-height: 560px;
+        max-width: 350px;
+    }
+
+    .number-card {
+        top: 32px;
+        transform: translateY(0);
+        font-size: 180px;
+    }
+}
