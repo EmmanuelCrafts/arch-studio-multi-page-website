@@ -141,11 +141,11 @@ footer {
         align-items: center;
         gap: 48px;
         transform-origin: top left;
-        transform: rotate(90deg) translateY(-50%);
+        transform: rotate(90deg);
         width: fit-content;
         position: absolute;
         top: 0;
-        left: 48px;
+        left: 7%;
     }
 
     .header-line {
