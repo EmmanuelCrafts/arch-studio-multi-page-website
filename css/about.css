@@ -45,8 +45,8 @@
 
 /* heritage section */
 .heritage {
-    margin: 32px 32px 0 32px;
-    /* padding: 0 32px; */
+    margin-top: 32px;
+   padding-inline: 32px;
 }
 
 .deco {
@@ -78,7 +78,9 @@
 
 /* leaders section */
 .leaders {
-    margin: 108px 32px 182px 32px;
+    margin-top: 108px;
+    margin-bottom: 182px;
+    padding-inline: 32px;
 }
 
 .leader-title {
@@ -124,8 +126,8 @@
     .intro,
     .heritage,
     .leaders {
-        margin-left: 98px;
-        margin-right: 98px;
+        width: 75%;
+        margin: 0 auto;
     }
    
     .intro {
@@ -190,8 +192,8 @@
 
     /* leaders section */
     .leaders {
-        margin-top: 200px;
-        margin-bottom: 200px;
+        margin-block: 200px;
+        padding: 0;
     }
     .leader-title {
         font-size: 72px;
