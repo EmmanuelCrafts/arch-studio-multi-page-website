@@ -39,7 +39,8 @@
 
 /* contact form and details */
 .contact-section {
-    margin: 32px 32px 0 32px;
+    margin-top: 32px;
+    padding-inline: 32px;
 }
 
 .contact-section h1 {
@@ -105,7 +106,9 @@
 
 /* contact form */
 .contact-us {
-    margin: 78px 32px 130px 32px;
+    margin-top: 78px;
+    margin-bottom: 130px;
+    padding-inline: 32px;
 }
 
 .contact-us h2 {
@@ -174,8 +177,8 @@
     .contact-section,
     .contact-us,
     .map {
-        margin-left: 98px;
-        margin-right: 98px;
+        width: 75%;
+        margin: 0 auto;
     }
 
     .contact-hero {
@@ -228,6 +231,7 @@
     /* contact info */
     .contact-section {
         margin-top: 200px;
+        padding: 0;
     }
 
     .contact-section h1 {
@@ -251,7 +255,8 @@
 
     /* contact form */
     .contact-us {
-        margin-top: 200px;
+        margin-block: 200px;
+        padding: 0;
     }
 
     .contact-us h2 {
