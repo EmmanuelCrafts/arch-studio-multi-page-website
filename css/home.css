@@ -280,10 +280,11 @@
 
 @media (min-width: 1024px) {
     .hero,
-    .intro-container,
     .about-redirect,
+    .intro-container,
     .featured{
         width: 80%;
+        max-width: 1110px;
     }
 
     /* hero section */ 
@@ -323,6 +324,7 @@
     }
 
     /* intro section */
+
  .big {
     transform: translateY(50%);
     font-size: 180px;
@@ -339,7 +341,6 @@
 
   .hero-text {
     width: 50%;
-    height: 30%;
   }
   .intro-hero {
     display: block;
@@ -370,3 +371,23 @@
 }
 
 /* large desktops */
+@media (min-width: 1280px) {
+
+     .intro-container {
+        position: relative;
+        margin-top: 195px;
+    }
+
+     .big {
+    font-size: 250px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-40%);
+  }
+
+  .hero-text {
+    padding-left: min(20%, 200px);
+    width: 60%;
+  } 
+
+}

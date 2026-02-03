@@ -222,6 +222,7 @@ footer {
     footer, 
     header {
         width: 80%;
+        max-width: 1110px;
         margin: 0 auto;
     }
 
@@ -232,4 +233,8 @@ footer {
     .header-style p {
         letter-spacing: 18px;
     }
+}
+
+@media (min-width: 1280px) {
+  
 }
