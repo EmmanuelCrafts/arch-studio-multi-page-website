@@ -189,7 +189,6 @@
         font-size: 96px;
         line-height: 85%;
         letter-spacing: -2px;
-        
     }
 
     .text-wrapper p {
@@ -311,8 +310,9 @@
         height: 100%;
         max-height: 720px;
     }
+
     .text-wrapper {
-        left: 150px;
+        left: 20%;
         top: 48%;
     }
 
@@ -343,6 +343,11 @@
     height: 100%;
     max-width: 350px;
   }
+
+   /* about redirect */
+   .redirect-text {
+    left: 20%;
+   }
     /*featured section */
     .cards-container {
         flex-direction: row;
