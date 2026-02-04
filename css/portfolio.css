@@ -52,3 +52,21 @@
         margin-bottom: 200px;
     }
 }
+/* laptop styles */
+@media (min-width: 1024px) {
+    .featured-projects {
+        width: 80%;
+        max-width: 1110px;
+        display: grid;
+        column-gap: 30px;
+        row-gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .featured-item {
+        max-width: 350px;
+        max-height: 560px;
+    }
+    
+}
