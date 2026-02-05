@@ -244,9 +244,22 @@
     }
 
     /* heritage sections */
+    .heritage {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .text-wrapper {
+        width: min(45%, 446px);
+    }
     .heritage-hero {
         display: block;
+        width: min(45%,540px);
     }
+
+    /* leaders section */
+    
 }
 
 /* large desktops */
