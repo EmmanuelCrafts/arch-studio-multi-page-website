@@ -193,7 +193,10 @@
         letter-spacing: -2px;
         margin-bottom: 56px;
     }
-
+   
+     .heritage-hero {
+        display: none;
+    }
     /* leaders section */
     .leaders {
         margin-block: 200px;
@@ -238,6 +241,11 @@
     }
     .intro-text {
         width: 60%;
+    }
+
+    /* heritage sections */
+    .heritage-hero {
+        display: block;
     }
 }
 
