@@ -213,7 +213,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 12px;
-        row-gap: 100px;
+        row-gap: 124px;
     }
 }
 
@@ -253,13 +253,25 @@
     .text-wrapper {
         width: min(45%, 446px);
     }
+
     .heritage-hero {
         display: block;
         width: min(45%,540px);
     }
 
     /* leaders section */
-    
+    .leaders {
+        margin-block: 100px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .leader-cards {
+        margin: 0;
+        width: 65%;
+        row-gap: 64px;
+    }
 }
 
 /* large desktops */
