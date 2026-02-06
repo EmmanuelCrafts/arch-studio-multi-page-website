@@ -1,41 +1,4 @@
-.contact-hero {
-    margin-top: 100px;
-}
-.hero-image img{
-    width: 100%;
-}
 
-.hero-text {
-    text-align: center;
-    position: relative;
-    bottom: 44px;
-    text-align: left;
-    padding: 68px 0 0 32px;
-    width: 90%;
-    background-color: var(--color-neutral-0);
-}
-
-.line-style,
-.contact-deco {
-    display: none;
-}
-.hero-text h1 {
-    font-weight: bold;
-    font-size: 48px;
-    letter-spacing: -1.7px;
-    line-height: 110%;
-    color: var(--color-zinc-900);
-    margin-bottom: 16px;
-   
-}
-
-.hero-text p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 135%;
-    color: var(--color-zinc-600);
-    letter-spacing: 0;
-}
 
 /* contact form and details */
 .contact-section {
@@ -173,60 +136,16 @@
 }
 /* tablet styles */
 @media (min-width: 768px) {
-    .contact-hero,
+    .hero-intro,
     .contact-section,
     .contact-us,
     .map {
         width: 75%;
+        max-width: 1110px;
         margin: 0 auto;
     }
 
-    .contact-hero {
-        margin-top: 0;
-        position: relative;
-    }
-    
-    
-    .hero-image img {
-        max-height: 720px;
-    }
-    
-    /* refactor this section i.e take it to global css */
-     .contact-deco {
-        display: block;
-        position: absolute;
-        top: 26vw;
-        right: 0;
-        z-index: 2;
-    }
-
-    .contact-deco h1 {
-        font-weight: bold;
-        font-size: 120px;
-        line-height: 165%;
-        letter-spacing: -3px;
-        color: var(--color-slate-100);
-    }
-
-    .line-style {
-        display: block;
-        margin-bottom: 72px;
-    }
-
-    .hero-text {
-        position: absolute;
-        right: -1px;
-        bottom: -1px;
-        padding-top: 89px;
-        padding-left: 59px;
-    }
-
-    .hero-text h1 {
-        font-size: 72px;
-        line-height: 90%;
-        letter-spacing: -2px;
-        margin-bottom: 40px;
-    }
+   
 
     /* contact info */
     .contact-section {
@@ -270,6 +189,12 @@
 
 /* desktop styles */
 
- @media (min-width: 1440px) {
-
+ @media (min-width: 1024px) {
+    .hero-intro,
+    .contact-section,
+    .contact-us,
+    .map {
+        width: 80%;
+    }
+    
  } 

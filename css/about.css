@@ -1,51 +1,4 @@
-.intro {
-    margin-top: 100px;
-}
 
-.hero-image {
-    position: relative;
-}
-.hero-image img{
-    width: 100%;
-}
-
-.about-deco {
-    display: none;
-}
-
-.line-style {
-    display: none;
-}
-
-.intro-text {
-    text-align: center;
-    position: relative;
-    bottom: 44px;
-    z-index: 2;
-    text-align: left;
-    padding-top: 68px;
-    width: 90%;
-    padding-left: 32px; 
-    background-color: var(--color-neutral-0);
-}
-
-
-.intro-text h1 {
-    font-weight: bold;
-    font-size: 48px;
-    letter-spacing: -1.7px;
-    line-height: 110%;
-    color: var(--color-zinc-900);
-    margin-bottom: 16px;
-}
-
-.intro-text p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 135%;
-    color: var(--color-zinc-600);
-    letter-spacing: 0;
-}
 
 /* heritage section */
 .heritage {
@@ -127,56 +80,14 @@
 
 /* tablet styles */
 @media (min-width: 768px) {
-    .intro,
+    .hero-intro,
     .heritage,
     .leaders {
         width: 75%;
         margin: 0 auto;
     }
    
-    .intro {
-        margin-top: 0;
-        position: relative;
-    }
     
-    .hero-image img{
-        max-height: 720px;
-    }
-    .about-deco {
-        display: block;
-        position: absolute;
-        top: 26vw;
-        right: 0;
-        z-index: 5;
-    }
-
-    .about-deco h1 {
-        font-weight: bold;
-        font-size: 120px;
-        line-height: 165%;
-        letter-spacing: -3px;
-        color: var(--color-slate-100);
-    }
-
-    .line-style {
-        display: block;
-        margin-bottom: 72px;
-    }
-
-    .intro-text {
-        position: absolute;
-        right: -1px;
-        bottom: -1px;
-        padding-top: 89px;
-        padding-left: 59px;
-    }
-
-    .intro-text h1 {
-        font-size: 72px;
-        line-height: 90%;
-        letter-spacing: -2px;
-        margin-bottom: 40px;
-    }
 
     /* heritage section */
     .heritage {
@@ -219,29 +130,14 @@
 
 /* laptop styles */
 @media (min-width: 1024px) {
-    .intro,
+    .hero-intro,
     .heritage,
     .leaders {
         width: 80%;
         max-width: 1110px;
     }
    
-    /* intro-section */
-    .hero-image {
-        width: min(70%,635px);
-    }
-    
-    .about-deco {
-        top: 25%;
-    }
-    .about-deco h1{
-        font-size: 180px;
-        letter-spacing: -5px;
-        line-height: 80%;
-    }
-    .intro-text {
-        width: 60%;
-    }
+  
 
     /* heritage sections */
     .heritage {
@@ -274,13 +170,3 @@
     }
 }
 
-/* large desktops */
-@media (min-width:1280px) {
-    .about-deco h1 {
-        font-size: 250px;
-    }
-
-    .intro-text {
-        padding-left: 15%;
-    }
-}

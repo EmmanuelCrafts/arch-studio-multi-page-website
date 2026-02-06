@@ -126,6 +126,55 @@ footer {
     stroke: var(--color-neutral-0);
 }
 
+/* intro section for about and contact pages */
+.hero-intro {
+    margin-top: 100px;
+}
+
+.hero-image {
+    position: relative;
+}
+.hero-image img{
+    width: 100%;
+}
+
+.hero-deco {
+    display: none;
+}
+
+.line-style {
+    display: none;
+}
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    bottom: 44px;
+    z-index: 2;
+    text-align: left;
+    padding-top: 68px;
+    width: 90%;
+    padding-left: 32px; 
+    background-color: var(--color-neutral-0);
+}
+
+
+.hero-text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -1.7px;
+    line-height: 110%;
+    color: var(--color-zinc-900);
+    margin-bottom: 16px;
+}
+
+.hero-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    color: var(--color-zinc-600);
+    letter-spacing: 0;
+}
 /* tablet styles */
 @media (min-width: 768px) {
     /* header   */
@@ -214,6 +263,51 @@ footer {
         flex-direction: row;
         gap: 56px;
     } 
+
+    /* about and contact intro section */
+    .hero-intro {
+        margin-top: 0;
+        position: relative;
+    }
+    
+    .hero-image img{
+        max-height: 720px;
+    }
+    .hero-deco {
+        display: block;
+        position: absolute;
+        top: 26vw;
+        right: 0;
+        z-index: 5;
+    }
+
+    .hero-deco h1 {
+        font-weight: bold;
+        font-size: 120px;
+        line-height: 165%;
+        letter-spacing: -3px;
+        color: var(--color-slate-100);
+    }
+
+    .line-style {
+        display: block;
+        margin-bottom: 72px;
+    }
+
+    .hero-text {
+        position: absolute;
+        right: -1px;
+        bottom: -1px;
+        padding-top: 89px;
+        padding-left: 59px;
+    }
+
+    .hero-text h1 {
+        font-size: 72px;
+        line-height: 90%;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
 }
 
 /* desktop styles */
@@ -233,8 +327,34 @@ footer {
     .header-style p {
         letter-spacing: 18px;
     }
+
+    /* intro sections */
+      /* intro-section */
+    .hero-image {
+        width: min(70%,635px);
+    }
+    
+    .hero-deco {
+        top: 25%;
+    }
+    .hero-deco h1{
+        font-size: 180px;
+        letter-spacing: -5px;
+        line-height: 80%;
+    }
+    .hero-text {
+        width: 60%;
+    }
 }
 
-@media (min-width: 1280px) {
-  
+/* large desktops */
+@media (min-width:1280px) {
+    /* intro section */
+    .hero-deco h1 {
+        font-size: 250px;
+    }
+
+    .hero-text {
+        padding-left: 15%;
+    }
 }
