@@ -332,14 +332,14 @@
     line-height: 80%;
   }
 
-  .hero-wrapper {
+  .intro-wrapper {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     margin-left: auto;
   }
 
-  .hero-text {
+  .intro-hero-text {
     width: 50%;
   }
   .intro-hero {
