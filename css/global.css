@@ -109,7 +109,7 @@ footer {
     line-height: 140%;
     letter-spacing: 0px;
     color: var(--color-slate-500);
-    transform: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .footer-navigation li:hover {
@@ -127,8 +127,12 @@ footer {
     background-color: var(--color-zinc-900);
     cursor: pointer;
     width: fit-content;
+    transition: color 0.3s ease-in-out;
 }
 
+.button-div:hover {
+    background-color: var(--color-zinc-600);
+}
 .button-div svg {
     stroke: var(--color-neutral-0);
 }
