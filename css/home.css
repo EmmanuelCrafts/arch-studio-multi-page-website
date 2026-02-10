@@ -240,8 +240,7 @@
 
     /* featured */
     .featured {
-        margin-top: 200px;
-        margin-bottom: 208px;
+       margin-block: 200px;
         padding: 0;
         position: relative;
     }
@@ -385,7 +384,7 @@
     transform: translateY(-40%);
   }
 
-  .hero-text {
+  .intro-hero-text {
     padding-left: min(20%, 200px);
     width: 60%;
   } 

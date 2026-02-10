@@ -56,6 +56,10 @@
     gap: 80px;
 }
 
+.heritage-hero {
+        display: none;
+}
+
 .leader-text {
     margin-top: 16px;
 }
@@ -105,9 +109,6 @@
         margin-bottom: 56px;
     }
    
-     .heritage-hero {
-        display: none;
-    }
     /* leaders section */
     .leaders {
         margin-block: 200px;
@@ -157,7 +158,7 @@
 
     /* leaders section */
     .leaders {
-        margin-block: 100px;
+        margin-block: 160px;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
