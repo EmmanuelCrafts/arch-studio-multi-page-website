@@ -29,6 +29,7 @@
 .nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .menu-icon {
@@ -44,6 +45,36 @@
     height: 32px;
 }
 
+/* mobile nav decoration */
+.slider-menu {
+    border: 1px solid var(--color-slate-200);
+    position: absolute;
+    padding-left: 48px;
+    padding-block: 32px;
+    top: 100px;
+    width: 90%;
+    transform: translateX(100%) ;
+    transition: transform 0.3s ease-in-out;
+    right: 0;
+    background-color: var(--color-slate-100);
+}
+
+.slider-menu.active {
+    transform: translateX(0);
+}
+
+.slider-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.slider-menu li {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: var(--color-zinc-900);
+}
 /* line decoration */
  .line-style {
     width: 65px;
