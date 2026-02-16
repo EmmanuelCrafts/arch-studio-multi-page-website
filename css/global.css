@@ -258,6 +258,10 @@ footer {
     .desktop-nav {
         display: block;
     }
+
+    .mobile-nav {
+        display: none;
+    }
     
     .desktop-nav ul {
         display: flex;
@@ -278,9 +282,6 @@ footer {
         color: var(--color-zinc-900);
     }
 
-    .menu-icon {
-        display: none;
-    }
 
     
     footer {
