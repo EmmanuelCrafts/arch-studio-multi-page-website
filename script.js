@@ -1,5 +1,11 @@
 let menu = document.querySelector('.menu-icon');
 let sliderMenu = document.querySelector('.slider-menu');
-menu.addEventListener('click',() => {
-    sliderMenu.classList.toggle('active');
-});
+
+function toggleMenu() {
+    const isOpen = sliderMenu.classList.contains("active");
+
+    sliderMenu.classList.toggle("active");
+    menu.setAttribute("aria-expanded", !isOpen);
+}
+
+menu.addEventListener("click", toggleMenu);
