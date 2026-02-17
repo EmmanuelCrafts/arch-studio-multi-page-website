@@ -1,16 +1,18 @@
-let menu = document.querySelector('.menu-icon');
+let menuBtn = document.querySelector('.menu-icon');
 let sliderMenu = document.querySelector('.slider-menu');
 
 function toggleMenu() {
     sliderMenu.classList.toggle("active");
+    menuBtn.classList.toggle("is-open");
     const isOpen = sliderMenu.classList.contains("active");
-    menu.setAttribute("aria-expanded", isOpen);
+    menuBtn.setAttribute("aria-expanded", isOpen);
+
 }
 
 
 function closeMenu() {
     sliderMenu.classList.remove("active");
-     menu.setAttribute("aria-expanded", "false");
+     menuBtn.setAttribute("aria-expanded", "false");
 }
 
 // close when esc key is pressed
@@ -23,11 +25,11 @@ document.addEventListener("keydown" ,function(event){
 // close when clicking outside
 document.addEventListener("click", function(event) {
     const isClickInsideMenu = sliderMenu.contains(event.target);
-    const isClickOnButton = menu.contains(event.target);
+    const isClickOnButton = menuBtn.contains(event.target);
 
     if(!isClickInsideMenu && !isClickOnButton) {
        closeMenu();
     }
 });
 
-menu.addEventListener("click", toggleMenu);
+menuBtn.addEventListener("click", toggleMenu);

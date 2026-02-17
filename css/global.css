@@ -19,7 +19,8 @@
     background-color: #fff;
     position: fixed;
     width: 100%; 
-     top: 0;
+    max-height: 100px;
+    top: 0;
     z-index: 10;
 }
 
@@ -29,20 +30,34 @@
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-.menu-icon {
-    cursor: pointer;
+.mobile-nav {
     margin-left: auto;
 }
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url('/assets/icons/icon-hamburger.svg') no-repeat center;
+}
 
+.menu-icon.is-open {
+    background: url('/assets/icons/icon-close.svg') no-repeat center;
+}
 .desktop-nav {
     display: none;
 }
 .nav-logo svg {
     width: 77px;
     height: 32px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; 
 }
 
 /* mobile nav decoration */
