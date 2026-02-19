@@ -80,6 +80,9 @@
     position: relative;
 } 
 
+.redirect-container .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .redirect-hero img {
     width: 100%;
 }
